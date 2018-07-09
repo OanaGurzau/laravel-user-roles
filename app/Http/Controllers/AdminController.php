@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function earnings(){
-      return 'Total earnings 999';
+      return view('admins.earnings');
     }
 }

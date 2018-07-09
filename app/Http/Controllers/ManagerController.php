@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ManagerController extends Controller
 {
     public function tasks(){
-      return "Total task is 10";
+      return view('managers.tasks');
     }
 
   }
